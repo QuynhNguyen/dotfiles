@@ -1,0 +1,4 @@
+#taking in commit # and merged branch such as develop/master/rc
+github-details() {
+	git log $1..$2 --ancestry-path --merges
+}
