@@ -8,3 +8,4 @@
 	default = simple
 [core]
     editor = vim
+	excludesfile = /Users/quynhnguyen/.gitignore_global
