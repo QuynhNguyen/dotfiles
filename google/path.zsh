@@ -1,1 +1,1 @@
-export PATH=${0:A:h}/bin:$PATH
+export PATH=$HOME/.sdk/google-cloud-sdk/bin:$PATH
