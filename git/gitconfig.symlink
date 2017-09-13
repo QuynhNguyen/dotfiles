@@ -8,4 +8,7 @@
 	default = simple
 [core]
     editor = vim
-	excludesfile = /Users/quynhnguyen/.gitignore_global
+	excludesfile = /Users/admin/.gitignore_global
+[user]
+	name = Quynh Nguyen
+	email = quynhnguyen003@gmail.com

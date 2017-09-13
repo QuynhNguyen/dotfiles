@@ -1,4 +1,3 @@
-
 # Aliases
 alias g='git'
 compdef g=git
@@ -36,3 +35,4 @@ alias gsoft='git reset --soft HEAD~'
 alias glpimp='git log --pretty=format:"%C(yellow)%h%Cred%d%Creset - %C(red)%an %Creset: %s %Cgreen(%cr)"'
 alias gamend='git add . && git commit --amend --no-edit'
 alias gdmerged='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
+alias gbl='git branch | cat -n'

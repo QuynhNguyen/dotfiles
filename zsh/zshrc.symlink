@@ -21,6 +21,10 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
+# Uncategorized
+export PATH="$HOME/.fastlane/bin:$PATH"
+export PATH="~/anaconda3/bin:$PATH"
+
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but

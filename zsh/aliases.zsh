@@ -7,3 +7,6 @@ alias hideAllFiles='defaults write com.apple.finder AppleShowAllFiles NO; killal
 
 # Homebrew
 alias brewUpdate='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+
+# Python
+alias python='python3'

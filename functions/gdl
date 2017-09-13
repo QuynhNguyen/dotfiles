@@ -1,0 +1,3 @@
+gdl() {
+	git branch | cat -n | head -n $1 | tail -n1 | awk '{ print $2 }' | xargs git branch -D
+}
